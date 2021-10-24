@@ -26,14 +26,12 @@ body {
   max-width: 620px;
   position: relative;
 }
-
 .search-input {
   background-color: transparent;
   border: none;
   width: 100%;
   padding: 13px 50px 13px 20px;
 }
-
 .search-button {
   height: 100%;
   border: none;
@@ -48,7 +46,6 @@ body {
 .auth {
   margin-left: auto;
 }
-
 .login {
   background: #ebebeb;
   border-radius: 50px;
@@ -72,7 +69,6 @@ body {
   text-decoration: none;
   position: relative;
 }
-
 .shopping-counter {
   background: #ffaf19;
   font-size: 8px;
@@ -83,4 +79,145 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.slide {
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.slide-content {
+  max-width: 400px;
+  position: relative;
+}
+.slide-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.slide-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.slide-text-light {
+  background-color: gray;
+  color: white;
+}
+
+.slide-summer {
+  background-image: url('../img/summer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url('../img/summer-min.png'); */
+}
+.slide-summer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.button {
+  border-radius: 25px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-decoration: none;
+  padding: 12px 52px;
+}
+.button-default {
+  background-color: #fff;
+  color: #000;
+}
+.button-primary {
+  background: #f47322;
+  color: #fff;
+}
+
+.promo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+}
+
+.card {
+  flex: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px;
+  padding: 32px;
+  max-width: 570px;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.png);
+}
+.card-text-ligth {
+  color: white;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 21px;
+}
+.card-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 200px;
+}
+.card-price {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.card-delivery {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+.sweet-basket {
+  /* background: url('../img/sweet-basket-min.png') no-repeat center / cover; */
+}
+.card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  object-fit: cover;
 }
