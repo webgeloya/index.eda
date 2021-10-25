@@ -209,9 +209,6 @@ body {
   line-height: 23px;
   margin-bottom: 25px;
 }
-.sweet-basket {
-  /* background: url('../img/sweet-basket-min.png') no-repeat center / cover; */
-}
 .card-image {
   position: absolute;
   left: 0;
@@ -220,4 +217,224 @@ body {
   height: 100%;
   z-index: -2;
   object-fit: cover;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+
+.delivery-week {
+  padding: 100px 0;
+}
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.delivery-card {
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.delivery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+.tag-health {
+  background: #d0fd89;
+}
+.tag-2 {
+  background: #aebc41;
+}
+.tag-3 {
+  background: #b86b78;
+}
+.tag-4 {
+  background: #d68334;
+}
+.tag-5 {
+  background: #cd6255;
+}
+.tag-6 {
+  background: #fffdbf;
+}
+.tag-7 {
+  background: #f6fdc8;
+}
+.tag-8 {
+  background: #fef7fe;
+}
+
+.section-gray {
+  background: #f6f6f6;
+  padding-bottom: 58px;
+}
+.category {
+  padding: 40px 100px;
+}
+
+.tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 62px;
+}
+.tabs-link {
+  margin-right: 58px;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #49494f;
+}
+.tabs-link.active {
+  color: #f37321;
+}
+
+.tabs-card {
+  max-width: 270px;
+  border-radius: 20px;
+  margin-left: 37px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.tabs-image {
+  width: 100%;
+}
+.tabs-content {
+  margin-bottom: 58px;
+  display: flex;
+  margin-left: -37px;
+}
+.tabs-card-content {
+  padding: 23px;
+}
+.tabs-title {
+  margin-top: 0;
+}
+.tabs-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+.tabs-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs-price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs-weigth {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+
+.button-outline {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 25px;
+  color: #f37321;
+  background: transparent;
+  border: 2px solid #f37321;
+  cursor: pointer;
+}
+.button-center {
+  width: 315px;
+  display: block;
+  margin: auto;
+}
+
+.section-benefits {
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+.section-benefits-title {
+  font-size: 32px;
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+.benefits-cards {
+  margin-top: 52px;
+  display: flex;
+  margin-left: -37px;
+}
+.benefits-card-item {
+  width: 270px;
+  padding: 24px;
+  margin-left: 37px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+.benefit-title {
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 23px;
+}
+.benefit-description {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #49494f;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #f6f6f6;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
 }
