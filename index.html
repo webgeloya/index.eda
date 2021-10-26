@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,15 +37,51 @@
     </header>
     <main>
         <!-- Слайдер -->
-        <div class="slider container">
-            <div class="slide slide-summer slide-text-light">
-                <div class="slide-content">
-                    <h2 class="slide-title">Неделя летних овощей</h2>
-                    <p class="slide-text">Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
-                    <a href="#" class="button button-primary">Заказать со скидкой</a>
+        <div class="swiper slider container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide slide-autumn slide-text-light">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Неделя осенних овощей</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide slide-summer slide-text-light">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Неделя летних овощей</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide slide-vitamin slide-text-light">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Витаминная неделя</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+                ...
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="slider-buttons">
+                <div class="slider-button slider-button-prev">
+                    <img src="img/slide-left.svg" alt="prev">
+                </div>
+                <div class="slider-button slider-button-next">
+                    <img src="img/slide-right.svg" alt="next">
                 </div>
             </div>
         </div>
+
         <div class="container">
             <!-- Промо -->
             <div class="promo">
@@ -219,7 +256,7 @@
             <h2 class="section-benefits-title">Наши преимущества</h2>
             <div class="benefits-cards">
                 <div class="benefits-card-item">
-                    <img src="img/benefits/benefit-1.png" alt="" class="benefit-image">
+                    <img src="img/benefits/benefit-1.svg" alt="" class="benefit-image">
                     <h3 class="benefit-title">Какой путь проходит ваша еда</h3>
                     <p class="benefit-description">Вы делаете заказ на коробку
                     с недельным запасом
@@ -227,17 +264,17 @@
                     для всей семьи</p>
                 </div>
                 <div class="benefits-card-item">
-                    <img src="img/benefits/benefit-2.png" alt="" class="benefit-image">
+                    <img src="img/benefits/benefit-2.svg" alt="" class="benefit-image">
                     <h3 class="benefit-title">Как происходит производство</h3>
                     <p class="benefit-description">За день до доставки мы сами готовим блюда из натуральных продуктов без консервантов, красителей и гмо</p>
                 </div>
                 <div class="benefits-card-item">
-                    <img src="img/benefits/benefit-3.png" alt="" class="benefit-image">
+                    <img src="img/benefits/benefit-3.svg" alt="" class="benefit-image">
                     <h3 class="benefit-title">Высокие стандарты качества</h3>
                     <p class="benefit-description">Наши повара с многолетним опытом с любовью готовят каждую порцию блюда</p>
                 </div>
                 <div class="benefits-card-item">
-                    <img src="img/benefits/benefit-4.png" alt="" class="benefit-image">
+                    <img src="img/benefits/benefit-4.svg" alt="" class="benefit-image">
                     <h3 class="benefit-title">Быстрая и качественная доставка</h3>
                     <p class="benefit-description">Сами доставим всё прямов
                     в вашу морозилку, сохранив
@@ -266,5 +303,7 @@
         </div>
         <!-- /.container -->
     </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
